@@ -30,12 +30,12 @@ describe('Funcionalidade página de produtos', () => {
 
     });
 
-    it.only('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
+    it('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
        cy.addProdutos('Abominable Hoodie', 'M' , 'Blue', 3)
 
     });
 
-    it.only('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
+    it('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
         cy.addProdutos('Atlas Fitness Tank', 'S' , 'Blue', 4)
  
      });
